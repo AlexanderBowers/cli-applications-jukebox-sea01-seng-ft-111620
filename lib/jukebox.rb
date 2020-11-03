@@ -35,6 +35,7 @@ def play(songs)
       current_song = "Playing #{song_name}"
     end
   end
+  current_song
 end
 
 def exit_jukebox
