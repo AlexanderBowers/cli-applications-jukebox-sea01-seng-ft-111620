@@ -33,8 +33,9 @@ def play(songs)
   songs.each do |song_name|
     if song_choice == song_name
       current_song =  "Playing #{song_name}"
+      else current_song = "Invalid input, please try again"
     end
-  else current_song = "Invalid input, please try again"
+  
   end
   current_song
 end
