@@ -30,10 +30,8 @@ def play(songs)
   current_song = ""
   puts "Please enter a song name or number:"
   song_choice = gets.strip
-  songs.each do |song_name|
     #binding.pry
   current_song = "Playing #{songs[song_choice.to_i - 1]}"
-  end
   current_song
 end
 
