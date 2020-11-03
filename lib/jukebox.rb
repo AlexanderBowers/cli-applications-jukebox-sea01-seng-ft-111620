@@ -33,6 +33,7 @@ def play(songs)
     if song_choice == song_name
       puts "Playing #{song_name}"
     end
+  end
 end
 
 def exit_jukebox
