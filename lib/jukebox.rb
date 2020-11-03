@@ -38,9 +38,9 @@ end
 def run(songs)
   input = ""
   puts "Please enter a command:"
-  
+
   until input == "exit"
-    puts "Please enter a command:"  
+    puts "Please enter a command:"
     input = gets.strip
     if input == "play"
       play(songs)
