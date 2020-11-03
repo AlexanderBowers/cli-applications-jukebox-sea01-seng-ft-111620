@@ -35,6 +35,7 @@ def play(songs)
     end
     if !(song_choice.include?(song_name || songs.index(song_name) - 1))
       puts "Invalid input, please try again"
+    end
   end
 end
 
