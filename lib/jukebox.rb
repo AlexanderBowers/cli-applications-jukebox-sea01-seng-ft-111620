@@ -32,6 +32,7 @@ def play(songs)
   song_choice = gets.strip
     #binding.pry
   current_song = "Playing #{songs[song_choice.to_i - 1]}"
+  binding.pry
   current_song
 end
 
