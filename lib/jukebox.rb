@@ -31,7 +31,7 @@ def play(songs)
   song_choice = gets.strip
   if songs.include?(song_choice)
     puts "Playing #{song_choice}"
-  elsif (song_choice.to_i - 1).between?(0..songs.length)
+  elsif (song_choice.to_i - 1).between?(songs.length)
     puts "Playing #{song_choice.to_i - 1}"
   else
     puts "Invalid input, please try again"
