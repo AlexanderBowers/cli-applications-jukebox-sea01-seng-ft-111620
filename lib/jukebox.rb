@@ -31,7 +31,7 @@ def play(songs)
   input = gets.strip
   songs.each do |song|
     #binding.pry
-    if input == song || input == songs[input.to_i]
+    if input == song #|| input == songs[input.to_i]
       puts "Playing #{song}"
     else
       puts "Invalid input, please try again"
