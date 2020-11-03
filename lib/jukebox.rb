@@ -32,10 +32,7 @@ def play(songs)
   song_choice = gets.strip
   songs.each do |song_name|
     binding.pry
-    if song_choice == song_name
-      current_song = song_name
-    else
-      current_song = "Invalid input, please try again"
+  current_song = "Playing #{songs[song_choice.to_i - 1]}"
     end
   end
   current_song
