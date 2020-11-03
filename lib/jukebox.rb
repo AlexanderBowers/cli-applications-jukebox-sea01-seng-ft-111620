@@ -33,7 +33,7 @@ def play(songs)
   songs.each do |song_name|
     #binding.pry
   current_song = "Playing #{songs[song_choice.to_i - 1]}"
-    end
+
   end
   current_song
 end
