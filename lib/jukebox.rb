@@ -28,8 +28,9 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  input = gets.strip
+
   songs.each do |song|
+      input = gets.strip
     #binding.pry
     if input == song #|| input == songs[input.to_i]
       puts "Playing #{song}"
