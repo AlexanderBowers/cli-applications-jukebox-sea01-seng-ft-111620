@@ -33,6 +33,8 @@ song_choice = gets.strip
 songs.any? do |song_name|
   if song_name == song_choice
     current_song = "Playing #{song_name}"
+  end
+end
 end
 
 def exit_jukebox
