@@ -31,6 +31,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   song_choice = gets.strip
   songs.each do |song_name|
+    binding.pry
     if song_choice.to_i == song_name.index
       current_song = song_name
     else
