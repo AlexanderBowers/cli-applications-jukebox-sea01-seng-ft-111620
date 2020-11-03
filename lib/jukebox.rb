@@ -31,7 +31,7 @@ def play(songs)
   song_choice = gets.strip
   if songs.include?(song_choice) || (song_choice.to_i - 1) < songs.length
     puts "Playing #{song_choice}"
-  else 
+  else
     puts "Invalid input, please try again"
   end
 end
