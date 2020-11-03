@@ -35,8 +35,8 @@ def play(songs)
       current_song = song_name
     else
       current_song = "Invalid input, please try again"
+    end
   end
-end
   current_song
 end
 
