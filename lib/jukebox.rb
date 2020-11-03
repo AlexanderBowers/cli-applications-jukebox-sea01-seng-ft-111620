@@ -29,16 +29,11 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   song_choice = gets.strip
-  songs.each do |song_name|
-    if song_name == song_choice
-      puts  "Playing #{song_name}"
-      song_choice = gets.strip
-    else
-     binding.pry
-      puts "Invalid input, please try again"
-      song_choice = gets.strip
-    end
+  if song_choice.any? (songs)
+    puts "Playing #{song_choice)}"
   end
+  if (song_choice.to_i - 1) < songs.length
+    puts "Playing #{songs[song_choice.to_i - 1]}"
 end
 
 def exit_jukebox
