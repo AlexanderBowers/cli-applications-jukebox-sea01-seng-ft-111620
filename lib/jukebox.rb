@@ -34,7 +34,7 @@ def play(songs)
       puts  "Playing #{song_name}"
       song_choice = gets.strip
     else
-      binding.pry
+    #  binding.pry
       puts "Invalid input, please try again"
       song_choice = gets.strip
     end
