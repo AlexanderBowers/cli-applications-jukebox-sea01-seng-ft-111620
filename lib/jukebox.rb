@@ -33,7 +33,7 @@ def play(songs)
     binding.pry
     if song_name == song_choice || (song_choice.to_i - 1) == songs.index(song_name)
       puts  "Playing #{song_name}"
-    elsif 
+    elsif
     end
   end
 end
