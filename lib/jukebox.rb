@@ -34,6 +34,7 @@ def play(songs)
   end
   if (song_choice.to_i - 1) < songs.length
     puts "Playing #{songs[song_choice.to_i - 1]}"
+  end
 end
 
 def exit_jukebox
