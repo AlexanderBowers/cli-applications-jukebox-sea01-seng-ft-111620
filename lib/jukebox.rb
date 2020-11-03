@@ -27,6 +27,7 @@ def list(songs)
 end
 
 def play(songs)
+current_song = ""
 
 end
 
