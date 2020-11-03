@@ -32,9 +32,10 @@ def play(songs)
   song_choice = gets.strip
   songs.each do |song_name|
     if song_choice == song_name
-      puts "Playing #{song_name}"
+      current_song =  "Playing #{song_name}"
     end
   end
+  current_song
 end
 
 def exit_jukebox
